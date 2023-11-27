@@ -51,3 +51,22 @@
     text-decoration: none;
     display: flex;
   }
+
+  .hero {
+    display: flex;
+    height: 100%;
+    background-color: #d8d8d8;
+  }
+
+  .hero-left {
+    flex: 60%;
+  }
+
+  .hero__right {
+    flex: 40%;
+  }
+
+  .hero-left img {
+    width: 100%;
+    padding: 32px 24px 32px 24px;
+  }
