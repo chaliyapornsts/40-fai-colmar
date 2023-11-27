@@ -5,7 +5,7 @@
   }
 
   html {
-    height: 1000vh;
+    height: 100%;
     width: 100%;
   }
 
@@ -59,10 +59,12 @@
   }
 
   .hero-left {
+    display: flex;
     flex: 60%;
   }
 
-  .hero__right {
+  .hero-right {
+    display: flex;
     flex: 40%;
   }
 
@@ -109,3 +111,77 @@
   .hero-right-con button a:hover {
     background-color: #312e2e;
   }
+
+  /* information */
+.information {
+    display: flex; 
+    background-color: white;
+}
+
+.info-left {
+    flex: 60%;
+}
+
+.info-left-con {
+    margin: 0 24px;
+}
+
+.info-right {
+    width: 40%;
+    display: flex;
+    flex: 40%;
+}
+
+.info-left img {
+   display: flex;
+    width: 100%;
+   padding: 32px 24px 32px 24px;
+}
+
+.info-left-con h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(44, 44, 44)
+}
+
+.info-left-con p {
+    margin: 24px 0;
+}
+
+.info-left-con .text-bottom {
+  margin: 32px 0;
+}
+
+.info-right-con {
+   border-left: 1px solid #dddddd;
+}
+
+.info-right-con-img-item {
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+}
+
+.info-right-con-img-item img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+    padding: 16px 16px 16px 16px;
+}
+
+.info-right-con-item {
+    width: 65%;
+}
+
+.info-right-con-item p {
+    margin: 10px 0;
+}
+
+.info-right-con-item a {
+   text-decoration: none;
+    color: rgb(65, 134, 231)
+}
+
+.info-right-con-img-item:hover {
+    background-color: #dddddd;
+}
