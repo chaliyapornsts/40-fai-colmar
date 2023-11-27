@@ -70,3 +70,42 @@
     width: 100%;
     padding: 32px 24px 32px 24px;
   }
+
+  .hero-right-con {
+    margin: 150px 0;
+    width: 60%;
+    flex-wrap: wrap;
+  }
+
+  .hero-right-con span {
+    font-size: 45px;
+    font-weight: bold;
+    color: #4a4a4a;
+  }
+
+  .hero-right-con p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin: 35px 0;
+  }
+
+  .hero-right-con button {
+    background-color: #4a4a4a;
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    margin: 8px auto;
+    border: none;
+  }
+
+  .hero-right-con button a {
+    display: block;
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .hero-right-con button a:hover {
+    background-color: #312e2e;
+  }
