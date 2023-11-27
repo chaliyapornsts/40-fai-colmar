@@ -141,7 +141,7 @@
 .info-left-con h1 {
     font-size: 45px;
     font-weight: bold;
-    color: rgb(44, 44, 44)
+    color: rgb(44, 44, 44);
 }
 
 .info-left-con p {
@@ -185,3 +185,29 @@
 .info-right-con-img-item:hover {
     background-color: #dddddd;
 }
+
+/* course */
+.course {
+    flex: 1;
+    background-color: #d8d8d8;
+}
+
+.course-con h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 32px;
+    background-color: #d8d8d8;
+    color: rgb(44, 44, 44);
+}
+
+.course-subject {
+    padding: 32px 72px 32px 72px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
